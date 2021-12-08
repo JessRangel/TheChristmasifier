@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Snowflake; src: url('MarshmallowWorld-MZMn.ttf'); 
+}
+
+.fa-snowflake {
+	font-family: Snowflake;
+	text-shadow: 1px 1px black;
+	color: #fff;
+	position: fixed;
+	top: -20px;
+	animation: fall linear forwards;
+}
+
+
+@keyframes fall {
+	to {
+		transform: translateY(105vh);
+	}
+}
+
